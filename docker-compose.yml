@@ -11,5 +11,5 @@ services:
       - FLASK_APP=app.py
     ports:
       - '5000:5000'
-    # stdin_open: true # für pdb
-    # tty: true # für pdb
+    stdin_open: true # für pdb
+    tty: true # für pdb
